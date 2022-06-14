@@ -8,10 +8,6 @@ runs:
   using: "composite"
   steps:
     - uses: actions/checkout@v2
-runs:
-  using: "composite"
-  steps:
-    - uses: actions/checkout@v2
     - name: Set Up CumulusCI
       uses: cumulusci-actions/setup-cumulus@main
     - name: Authenticate to Dev Hub
