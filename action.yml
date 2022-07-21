@@ -11,7 +11,7 @@ inputs:
     description: 'SFDX auth URL for the Dev Hub'
     required: true
   org-name:
-    description: 'Name of the scratch org or persistent org config to use'
+    description: 'Name of the scratch org config to use'
     required: true
     default: qa
 runs:
